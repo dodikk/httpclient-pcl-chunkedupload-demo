@@ -7,15 +7,15 @@
   using System.Net.Http.Headers;
 
 
-  public class FakeChunkedLoader
+  public static class FakeChunkedLoader
   {
-    public async Task<Stream> UploadAsync(
+    public static async Task<Stream> UploadAsync(
       Stream data, 
       string fileName,
       string mimeType,
       TestTweaks tweaks)
     {
-      string url = "https://scmobileteam.sitecoretest.net/-/item/v1/sitecore/Media%20Library/NewItem";
+      string url = "http://scmobileteam.sitecoretest.net/-/item/v1/sitecore/Media%20Library";
       string userName = "sitecore\\uploaderuser";
       string password = "uploaderuser";
 
