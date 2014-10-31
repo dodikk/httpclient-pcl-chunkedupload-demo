@@ -9,6 +9,23 @@
 
   public static class FakeChunkedLoader
   {
+    public static bool IsChunkedEncodingSupported()
+    {
+      HttpClientHandler handler = new HttpClientHandler();
+      var httpClient = new HttpClient(handler); // just in case it modifies the handler
+
+      return handler.SupportsTransferEncodingChunked();
+
+//      if (handler.SupportsTransferEncodingChunked())
+//      {
+//        return true;
+//      }
+//      else
+//      {
+//        return false;
+//      }
+    }
+
     public static async Task<Stream> UploadAsync(
       Stream data, 
       string fileName,

@@ -60,7 +60,7 @@ namespace HttpClientTestiOS
     }
 
 
-    [Test]
+//    [Test]
     public async void Test_ContentLengthHeader_IsAdded_NoChunkedEncoding()
     {
       var options = new TestTweaks();
@@ -83,6 +83,12 @@ namespace HttpClientTestiOS
 //        Content-Length: 203
 //        Connection: keep-alive
 //        Host: scmobileteam.sitecoretest.net
+    }
+  
+    [Test]
+    public void TestChunkedEncodingSupportIsExpected()
+    {
+      Assert.IsTrue( FakeChunkedLoader.IsChunkedEncodingSupported() );
     }
   }
 }
