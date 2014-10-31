@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientTest-iOS", "..\test\HttpClientTest-iOS\HttpClientTest-iOS.csproj", "{C9DC2403-B4AA-4E9B-807A-7171E9FD5577}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableUploader", "..\lib\PortableUploader\PortableUploader.csproj", "{6C1F1E84-9624-4634-B55C-17557D03B48F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C1F1E84-9624-4634-B55C-17557D03B48F}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{6C1F1E84-9624-4634-B55C-17557D03B48F}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{6C1F1E84-9624-4634-B55C-17557D03B48F}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{6C1F1E84-9624-4634-B55C-17557D03B48F}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{6C1F1E84-9624-4634-B55C-17557D03B48F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{6C1F1E84-9624-4634-B55C-17557D03B48F}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{6C1F1E84-9624-4634-B55C-17557D03B48F}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{6C1F1E84-9624-4634-B55C-17557D03B48F}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{6C1F1E84-9624-4634-B55C-17557D03B48F}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{6C1F1E84-9624-4634-B55C-17557D03B48F}.Release|iPhone.Build.0 = Release|Any CPU
+		{6C1F1E84-9624-4634-B55C-17557D03B48F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{6C1F1E84-9624-4634-B55C-17557D03B48F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{C9DC2403-B4AA-4E9B-807A-7171E9FD5577}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{C9DC2403-B4AA-4E9B-807A-7171E9FD5577}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{C9DC2403-B4AA-4E9B-807A-7171E9FD5577}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{C9DC2403-B4AA-4E9B-807A-7171E9FD5577}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{C9DC2403-B4AA-4E9B-807A-7171E9FD5577}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{C9DC2403-B4AA-4E9B-807A-7171E9FD5577}.Debug|iPhone.Build.0 = Debug|iPhone
+		{C9DC2403-B4AA-4E9B-807A-7171E9FD5577}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{C9DC2403-B4AA-4E9B-807A-7171E9FD5577}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{C9DC2403-B4AA-4E9B-807A-7171E9FD5577}.Release|iPhone.ActiveCfg = Release|iPhone
+		{C9DC2403-B4AA-4E9B-807A-7171E9FD5577}.Release|iPhone.Build.0 = Release|iPhone
+		{C9DC2403-B4AA-4E9B-807A-7171E9FD5577}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{C9DC2403-B4AA-4E9B-807A-7171E9FD5577}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = ..\test\HttpClientTest-iOS\HttpClientTest-iOS.csproj
+	EndGlobalSection
+EndGlobal
