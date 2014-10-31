@@ -60,7 +60,7 @@ namespace HttpClientTestiOS
     }
 
 
-//    [Test]
+    [Test]
     public async void Test_ContentLengthHeader_IsAdded_NoChunkedEncoding()
     {
       var options = new TestTweaks();
